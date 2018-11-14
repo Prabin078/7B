@@ -1,0 +1,31 @@
+Q1)
+
+#pwd<-getwd()
+#setwd(pwd)
+#print(pwd)
+data<-read.csv("csvdata.csv")
+print(data)
+
+
+
+Q2)
+
+
+mydata<-read.csv("xyz.csv")
+print(mydata)
+dim(mydata)
+names(mydata)
+str(mydata)
+attributes(mydata)
+head(mydata)
+tail(mydata)
+summary(mydata)
+mean(mydata $Sepal.Length)
+median(mydata $Sepal.Width)
+range(mydata $Petal.Length)
+range(mydata $Petal.Width)
+pie(table(mydata $Species))
+graph<-density(mydata $Sepal.Length)
+plot(graph)
+barplot(table(mydata $Species))
+
